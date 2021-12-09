@@ -1,5 +1,23 @@
 .App {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
   text-align: center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  color: #f1f1f1;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+  font-size: 20px;
+}
+
+p {
+  margin-top: 0;
 }
 
 .App-logo {
@@ -22,6 +40,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  size: 30px;
 }
 
 .App-link {
