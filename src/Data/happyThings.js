@@ -61,6 +61,7 @@ const happyThings = [
   "Rento giving me a drawing of us",
   "Chocolate Milk",
   "Dame getting me into crypto",
+  "Beans as a global reserve currency (luv u Aaron uwu)",
 ];
 
 export default happyThings;
