@@ -5,14 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  cursor: pointer;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }
 
 html {
   cursor: pointer;
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  color: #f1f1f1;
+  user-select: none;
+  font-size: 20px;
+}
+
+p {
+  margin-top: 0;
 }
